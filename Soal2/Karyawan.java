@@ -23,11 +23,13 @@ public class Karyawan extends Person {
 
     public String toString() {
         String hasil = super.toString("Karyawan");
-        return hasil + "\nKantor : " + kantor + "\nGaji : " + gaji + "\nTanggal Dipekerjakan : " + tanggalDiPekerjakan;
+        return hasil + "\nKantor : " + kantor + "\nGaji : " + gaji + 
+                       "\nTanggal Dipekerjakan : " + tanggalDiPekerjakan;
     }
     public String toString(String className) {
         String hasil = super.toString(className);
-        return hasil + "\nKantor : " + kantor + "\nGaji : " + gaji + "\nTanggal Dipekerjakan : " + tanggalDiPekerjakan;
+        return hasil + "\nKantor : " + kantor + "\nGaji : " + gaji + 
+                       "\nTanggal Dipekerjakan : " + tanggalDiPekerjakan;
     }
 
     final protected Date MyDate(String dateString) {

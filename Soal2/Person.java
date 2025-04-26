@@ -21,11 +21,14 @@ public class Person {
     }
 
     public String toString() {
-        return "Kelas : Person" + "\nNama : " + nama + "\nAlamat : " + alamat + "\nNomor Telepon : "
+        return "Kelas : Person" + "\nNama : " + nama + 
+               "\nAlamat : " + alamat + "\nNomor Telepon : "
                 + nomorTelepon + "\nEmail : " + email;
     }
+    
     public String toString(String className) {
-        return "Kelas : " + className + "\nNama : " + nama + "\nAlamat : " + alamat + "\nNomor Telepon : "
+        return "Kelas : " + className + "\nNama : " + nama + 
+               "\nAlamat : " + alamat + "\nNomor Telepon : "
                 + nomorTelepon + "\nEmail : " + email;
     }
 }

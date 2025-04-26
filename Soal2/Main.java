@@ -8,10 +8,10 @@ public class Main {
         Fakultas fakultas = new Fakultas();
         StafPegawai stafPegawai = new StafPegawai();
 
-        System.out.println(person);
-        System.out.println(student);
-        System.out.println(karyawan);
-        System.out.println(fakultas);
+        // System.out.println(person);
+        // System.out.println(student);
+        // System.out.println(karyawan);
+        // System.out.println(fakultas);
         System.out.println(stafPegawai);
     }
 }

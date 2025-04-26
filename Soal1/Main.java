@@ -6,11 +6,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Masukkan nilai sisi 1 : ");
-        int sisi1 = in.nextInt();
+        double sisi1 = in.nextDouble();
         System.out.print("Masukkan nilai sisi 2 : ");
-        int sisi2 = in.nextInt();
+        double sisi2 = in.nextDouble();
         System.out.print("Masukkan nilai sisi 3 : ");
-        int sisi3 = in.nextInt();
+        double sisi3 = in.nextDouble();
         System.out.print("Masukkan warna segitiga : ");
         String warna = in.next();
         System.out.print("Apakah mau diisi? (ya/tidak) : ");
